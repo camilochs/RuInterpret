@@ -1,0 +1,90 @@
+	body{
+		font-family:  Verdana, Geneva, sans-serif;
+		background:  #fff;
+	}
+	#top_menu{	
+		color: #fff;
+		font-size: 1.6em;
+		font-weight: bold;
+		font-family:  Verdana, Geneva, sans-serif;
+		height:2em;
+		width: 100%;
+		display: table; 
+		background-color: #000;
+	}
+	#top_menu p{
+		padding-left:10px;
+		width:10px;
+		display: table-cell; 
+	  	vertical-align: middle; 
+	  	text-align: left; 
+	  	cursor:default;
+	}
+	#menu_keys{
+		width: 100%;
+		margin-top: 10%;
+  		padding-right: 1.5%;
+	}
+	#menu_keys #table_keys{
+		text-align: center;
+		width: 100%;
+		margin:0em auto;
+	}
+	#table_keys td{
+		border-style:solid;
+		border-top-width:	 0.1em;
+		border-bottom-width: 0.1em;
+		border-left-width: 	 0.1em;
+		border-right-width:  0.1em;
+		border-color: #ccc;
+		cursor:default;
+	}
+	#table_keys #first_row td {
+		font-size: 1.3em;
+		background-color: #9ACD32;
+	}
+	#table_keys #first_row td:hover {
+		
+		color: #9ACD32;
+		background-color: #000;
+	}
+	#table_keys #second_row td {
+		font-size: 1em;
+		background-color: #eee;
+	}
+	#table_keys #third_row td {
+		font-size: 1em;
+		background-color: #ddd;
+	}
+
+	#table_keys .row_blank{
+
+		cursor:default;
+	}
+	#table_keys #first_row td:last-of-type{
+		border-right-width:  0.1em;
+	}
+	#table_keys #second_row td:last-of-type{
+		border-right-width:  0.1em;
+	}
+	#table_keys #first_row td:first-of-type{
+		border:0px;
+		background-color: #fff;
+	}
+	#table_keys #second_row td:first-of-type{
+		border:0px;
+		background-color: #fff;
+	}
+	#table_keys #third_row td:first-of-type{
+		border:0px;
+		background-color: #fff;
+	}	
+	#interpreter_txtarea{
+		font-size:1em;
+		width: 100%;
+  		margin-top:5%;
+	}
+	#app{
+		width: 90%;
+  		margin:0em auto;
+	}
